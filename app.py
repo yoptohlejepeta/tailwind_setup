@@ -22,3 +22,7 @@ async def read_root():
 @app.get("/")
 async def read_root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
+
+@app.get("/navbar")
+async def read_root(request: Request):
+    return templates.TemplateResponse("navbar_test.html", {"request": request})
