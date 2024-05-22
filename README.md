@@ -12,4 +12,6 @@ This is done independently, but should roughly copy [the official tailwind flask
 
 ## Development guide
 
-To update your css bundle, use `pnpm exec tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch`.
+To update your css bundle, use `pnpm exec tailwindcss -i ./css/main.css -o ./css/output.css --watch`.
+
+To update your js bundle, use `pnpm exec rollup -c`.

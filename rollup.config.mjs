@@ -4,6 +4,7 @@ import replace from '@rollup/plugin-replace';
 import { default as terser} from '@rollup/plugin-terser';
 
 export default {
+  preserveModules: true,
   input: './js/graph.js',
   output: {
     file: './js/output.js',

@@ -1,5 +1,11 @@
 import { init } from 'echarts';
+import { initFlowbite } from 'flowbite';
 
+// initialize libraries
+initFlowbite();
+
+
+// initialize charts
 var myChart = init(document.getElementById('main'), "light");
 export default myChart.setOption({
     title: {
