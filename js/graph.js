@@ -1,6 +1,6 @@
-import * as echarts from 'echarts';
+import { init } from 'echarts';
 
-var myChart = echarts.init(document.getElementById('main'), "light");
+var myChart = init(document.getElementById('main'), "light");
 export default myChart.setOption({
     title: {
         text: 'ECharts Getting Started Example'
