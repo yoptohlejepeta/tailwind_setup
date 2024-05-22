@@ -17,7 +17,11 @@
     "tailwindcss": "^3.4.3"
   },
   "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
     "echarts": "^5.5.0",
-    "flowbite": "^2.3.0"
+    "flowbite": "^2.3.0",
+    "rollup-plugin-esbuild": "^6.1.1"
   }
 }

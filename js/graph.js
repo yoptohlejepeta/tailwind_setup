@@ -1,5 +1,7 @@
+import * as echarts from 'echarts';
+
 var myChart = echarts.init(document.getElementById('main'), "light");
-myChart.setOption({
+export default myChart.setOption({
     title: {
         text: 'ECharts Getting Started Example'
     },
